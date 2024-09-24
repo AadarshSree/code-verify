@@ -23,7 +23,7 @@ This repository however is a modification to the original Code Verify extension 
 
   
 
-To install this version of Code Verify, the repository needs to be cloned and compiled. The build proces requires yarn to be installed. After cloning the repository, run the following commands to build the extension into the dist folder.
+To install this version of Code Verify, the repository needs to be cloned and compiled. The build process requires npm and yarn to be installed prior. After cloning the repository, run the following commands to build the extension into the dist folder.
 
     yarn install
     yarn build
@@ -33,7 +33,7 @@ Now, load the extension from the browser by navigating to the dist subdirectory 
   
 ## Config Changes
 
-Since the Cloudflare audit endpoint used by the original Code Verify extension to retrieve the manifest root hash is not public, we used our own endpoint to simulate the audit endpoint. To change the URL to the endpoint, look at [getCFRootHash.ts](https://github.com/AadarshSree/code-verify/blob/main/src/js/background/getCFRootHash.ts "getCFRootHash.ts").
+Since the Cloudflare audit endpoint used by the original Code Verify extension to retrieve the manifest root hash is not public, we simulated the audit endpoint on a server.To change the URL to the endpoint, look at [getCFRootHash.ts](https://github.com/AadarshSree/code-verify/blob/main/src/js/background/getCFRootHash.ts "getCFRootHash.ts").
 
 
   
