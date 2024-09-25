@@ -33,7 +33,7 @@ Now, load the extension from the browser by navigating to the dist subdirectory 
   
 ## Config Changes
 
-Since the Cloudflare audit endpoint used by the original Code Verify extension to retrieve the manifest root hash is not public, we simulated the audit endpoint on a server.To change the URL to the endpoint, look at [getCFRootHash.ts](https://github.com/AadarshSree/code-verify/blob/main/src/js/background/getCFRootHash.ts "getCFRootHash.ts").
+Since the Cloudflare audit endpoint used by the original Code Verify extension to retrieve the manifest root hash is not public, we simulated the audit endpoint on a server. To change the URL to the endpoint, look at [getCFRootHash.ts](https://github.com/AadarshSree/code-verify/blob/main/src/js/background/getCFRootHash.ts "getCFRootHash.ts").
 
 
   
